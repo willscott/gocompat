@@ -1,0 +1,7 @@
+These files reflect a subset of the internal go/vgo code from
+https://github.com/golang/vgo/tree/master/vendor/cmd/go/internal
+
+They are copied and have imports modified to be referencable from
+a separate project. Since 'internal' modules cannot be referenced
+directly, this is the path of least resistance, but will require
+manual pulls as changes are made upstream.
